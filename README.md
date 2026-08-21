@@ -4,6 +4,18 @@
 
 共 **31** 条 · 索引更新于 2026-08-20 · 本文件由 `build_index.py` 生成，请勿手改。
 
+## 🧩 产品 · 原型（7）
+
+| 标题 | 说明 | 标签 | 适用模型 | 案例 |
+|---|---|---|---|---|
+| [自动产品设计（待办驱动 App UI 全流程）](product/auto-product-design.md) | 用 task.md 待办清单驱动的手机 App UI 设计全流程 prompt：从功能追问到逐页 HTML 设计图、网格汇总页与自检 | `UI设计` `App原型` `HTML` `Tailwind` `工作流prompt` |  |  |
+| [B 端原型设计系统 Prompt 手册](product/b2b-prototype-system-prompt.md) | 面向 Readdy/Uizard/Figma AI 等工具的 B 端原型 prompt 手册：通用框架 + 常见页面速成 + LLM 评测平台专用库 + 微指令与评审迭代 | `B端` `原型设计` `UI` `LLM评测平台` `prompt手册` |  |  |
+| [高保真 App 原型图（播客 App 案例）](product/hifi-prototype-podcast-app.md) | 用 Cursor + Claude 3.7 Sonnet 生成可直接用于开发的高保真 App 原型图（HTML+Tailwind，iframe 平铺展示），以类小宇宙播客 App 为例 | `高保真原型` `App原型` `Tailwind` `Cursor` `播客` | Claude 3.7 Sonnet |  |
+| [首席产品设计师·MVP 启发式规划](product/mvp-product-planning.md) | 让模型扮演首席产品设计师，通过启发式对话把产品愿景拆成 MVP 路线图、ASCII 原型和架构蓝图，最终存档为 Prd.md | `PRD` `MVP` `产品路线图` `角色设定` |  |  |
+| [AI Coding 专用 PRD 生成器](product/prd-generator-for-ai-coding.md) | 把小白用户的想法翻译成 AI 编程助手（Cursor/Claude 等）可直接照做的标准化 PRD 的角色 prompt | `PRD` `AI编程` `需求梳理` `角色设定` |  |  |
+| [产品页面易用性分析](product/product-usability-review.md) | 让模型以 10 年经验 AI 产品经理身份，从界面、流程、交互三个维度全面分析当前产品页面的易用性问题 | `易用性` `产品分析` `UX评审` `LLM评测平台` |  |  |
+| [原型设计个人实践（页面级对话流）](product/prototype-design-practice.md) | 页面级原型设计的对话式 prompt 实践：只描述核心功能诉求，先让 LLM 提问梳理页面结构，确认无疑问后再开始设计 | `原型设计` `对话式prompt` `数据管理` `个人实践` |  | ✓ |
+
 ## 🎨 生图（13）
 
 | 标题 | 说明 | 标签 | 适用模型 | 案例 |
@@ -22,7 +34,7 @@
 | [浮世绘+茶杯头风格信息图](image-gen/ukiyoe-cuphead-infographic.md) | 一句话提示词，用浮世绘加茶杯头混搭风格为任意知识内容生成信息图 | `信息图` `浮世绘` `茶杯头` `知识解释` |  |  |
 | [仙侠风科学家系列图文卡片](image-gen/xianxia-scientist-cards.md) | 用 seedream4.0 为科学家生成一套五张中国风仙侠主题 3:4 竖版图文卡片，以仙侠语气讲述其科学证道之路 | `seedream4.0` `仙侠` `图文卡片` `小红书` | seedream4.0 |  |
 
-## 🎬 生视频（2）
+## 🎬 生视频 · 音频（2）
 
 | 标题 | 说明 | 标签 | 适用模型 | 案例 |
 |---|---|---|---|---|
@@ -52,15 +64,3 @@
 | [GPTs 指令保护 Prompt](agent/gpts-protection-prompt.md) | GPTs 防提示词泄露写法示例：Constraints 里禁止复述或改写系统指令，载体是一个「坏人视角」人设 GPT | `GPTs` `指令保护` `防提示词泄露` `角色设定` | ChatGPT（GPTs） | ✓ |
 | [Prompt 参考资源索引](agent/prompt-resources.md) | 四篇收藏合并的 prompt 学习资源索引：系统提示词仓库、prompt 合集与官方最佳实践入口 | `资源索引` `系统提示词` `prompt合集` |  | ✓ |
 | [元宝·杨修式智囊](agent/yuanbao-advisor.md) | 把大模型设定为三国杨修式犀利智囊：先结论后要点、短句直陈、敢于否定 | `元宝` `角色设定` `决策智囊` `李继刚` | 腾讯元宝 |  |
-
-## product（7）
-
-| 标题 | 说明 | 标签 | 适用模型 | 案例 |
-|---|---|---|---|---|
-| [自动产品设计（待办驱动 App UI 全流程）](product/auto-product-design.md) | 用 task.md 待办清单驱动的手机 App UI 设计全流程 prompt：从功能追问到逐页 HTML 设计图、网格汇总页与自检 | `UI设计` `App原型` `HTML` `Tailwind` `工作流prompt` |  |  |
-| [B 端原型设计系统 Prompt 手册](product/b2b-prototype-system-prompt.md) | 面向 Readdy/Uizard/Figma AI 等工具的 B 端原型 prompt 手册：通用框架 + 常见页面速成 + LLM 评测平台专用库 + 微指令与评审迭代 | `B端` `原型设计` `UI` `LLM评测平台` `prompt手册` |  |  |
-| [高保真 App 原型图（播客 App 案例）](product/hifi-prototype-podcast-app.md) | 用 Cursor + Claude 3.7 Sonnet 生成可直接用于开发的高保真 App 原型图（HTML+Tailwind，iframe 平铺展示），以类小宇宙播客 App 为例 | `高保真原型` `App原型` `Tailwind` `Cursor` `播客` | Claude 3.7 Sonnet |  |
-| [首席产品设计师·MVP 启发式规划](product/mvp-product-planning.md) | 让模型扮演首席产品设计师，通过启发式对话把产品愿景拆成 MVP 路线图、ASCII 原型和架构蓝图，最终存档为 Prd.md | `PRD` `MVP` `产品路线图` `角色设定` |  |  |
-| [AI Coding 专用 PRD 生成器](product/prd-generator-for-ai-coding.md) | 把小白用户的想法翻译成 AI 编程助手（Cursor/Claude 等）可直接照做的标准化 PRD 的角色 prompt | `PRD` `AI编程` `需求梳理` `角色设定` |  |  |
-| [产品页面易用性分析](product/product-usability-review.md) | 让模型以 10 年经验 AI 产品经理身份，从界面、流程、交互三个维度全面分析当前产品页面的易用性问题 | `易用性` `产品分析` `UX评审` `LLM评测平台` |  |  |
-| [原型设计个人实践（页面级对话流）](product/prototype-design-practice.md) | 页面级原型设计的对话式 prompt 实践：只描述核心功能诉求，先让 LLM 提问梳理页面结构，确认无疑问后再开始设计 | `原型设计` `对话式prompt` `数据管理` `个人实践` |  | ✓ |
