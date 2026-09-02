@@ -2,7 +2,7 @@
 
 个人 prompt 资产库：每条 prompt 一个文档，含原文、效果案例与来源。
 
-共 **34** 条 · 索引更新于 2026-08-20 · 本文件由 `build_index.py` 生成，请勿手改。
+共 **37** 条 · 索引更新于 2026-09-01 · 本文件由 `build_index.py` 生成，请勿手改。
 
 ## 🧠 深度思考（3）
 
@@ -62,7 +62,7 @@
 | [Claude 导出数据批量提取](coding/01-Claude导出数据提取.md) | 从 Claude 官方导出的 JSON 数据包批量提取对话，过滤分类后转成可读 Markdown 并沉淀可复用知识 | `Claude` `数据导出` `Markdown` `记忆沉淀` |  |  |
 | [Gemini 3 Pro 落地页生成流程](coding/02-Gemini落地页流程.md) | 用 Gemini 3 Pro 分五步生成高转化落地页的 6 条提示词模板：首屏定风格、图标动画细节、CTA、批量扩展板块 | `Gemini-3-Pro` `落地页` `网页设计` `动画` | Gemini 3 Pro |  |
 
-## 🤖 Agent · 系统 Prompt（6）
+## 🤖 Agent · 系统 Prompt（9）
 
 | 标题 | 说明 | 标签 | 适用模型 | 案例 |
 |---|---|---|---|---|
@@ -72,3 +72,6 @@
 | [GPTs 指令保护 Prompt](agent/04-GPTs指令保护.md) | GPTs 防提示词泄露写法示例：Constraints 里禁止复述或改写系统指令，载体是一个「坏人视角」人设 GPT | `GPTs` `指令保护` `防提示词泄露` `角色设定` | ChatGPT（GPTs） | ✓ |
 | [Goal 式任务描述模板](agent/05-Goal式任务描述模板.md) | 用背景/用途/请做/交付/边界五要素写任务 goal，让 AI 拿到足够上下文直接完成任务 | `goal` `任务描述` `协作模板` |  |  |
 | [Prompt 参考资源索引](agent/06-Prompt参考资源索引.md) | 四篇收藏合并的 prompt 学习资源索引：系统提示词仓库、prompt 合集与官方最佳实践入口 | `资源索引` `系统提示词` `prompt合集` |  | ✓ |
+| [Claude Fable 5.1 官方系统提示词（核心行为段）](agent/07-claude-fable-5.1-official.md) | Anthropic 官方发布的 Fable 5.1 在 claude.ai/移动端的核心系统提示词（2026-09-01 版），中英对照 | `Claude` `系统提示词` `Anthropic官方` `Fable` | Claude Fable 5.1 |  |
+| [Claude Fable 5.1 完整系统提示词（CL4R1T4S 泄露版·英文原文）](agent/08-claude-fable-5.1-full-leaked.md) | claude.ai 全量系统提示词泄露版（约 275KB）：行为规范、记忆系统、偏好守则、Artifacts、搜索指令与全部工具 JSONSchema；中文全译见 09 | `Claude` `系统提示词` `泄露` `CL4R1T4S` `Fable` | Claude Fable 5.1 |  |
+| [Claude Fable 5.1 完整系统提示词（中文译版）](agent/09-Claude-Fable-5.1完整系统提示词中文译版.md) | 08 号泄露版英文原文的简体中文全译；中间约 95KB 工具 JSONSchema 定义段保留英文、以译注指回原文 | `Claude` `系统提示词` `中文翻译` `CL4R1T4S` `Fable` | Claude Fable 5.1 |  |
